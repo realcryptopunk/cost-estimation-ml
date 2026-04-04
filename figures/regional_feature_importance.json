@@ -1,0 +1,62 @@
+{
+  "Midwest": {
+    "weighted_cci": 2.043182291681181,
+    "year": 2.4433346598374346,
+    "cci_labor_premium": 2.7890878084983757,
+    "mat_cci": 3.549095187476508,
+    "equip_cci": 3.694178892689645,
+    "cci_deviation": 3.9640323579955496,
+    "labor_cci": 4.702647442903527,
+    "log_area": 7.05718715274335,
+    "area_sqft": 7.698702590163545,
+    "project_type": 49.74180568875855
+  },
+  "Northeast": {
+    "formwork_rate": 1.7328075704517367,
+    "state": 2.0230035466075127,
+    "equip_cci": 2.4281188104120606,
+    "cci_labor_premium": 2.7790076851833647,
+    "labor_cci": 3.9829413350137575,
+    "weighted_cci": 4.078309600543656,
+    "log_area": 6.312941431136447,
+    "cci_deviation": 6.843741445328073,
+    "area_sqft": 8.497897887091343,
+    "project_type": 50.81830175391926
+  },
+  "Southeast": {
+    "cci_deviation": 1.9206442404862394,
+    "year_num": 1.9963306010382056,
+    "equip_cci": 2.3203122675130885,
+    "ppi_construction_materials": 2.333426665103514,
+    "weighted_cci": 3.6003840976610033,
+    "mat_cci": 3.6115704018841863,
+    "labor_cci": 4.672578760977012,
+    "area_sqft": 8.337188693104384,
+    "log_area": 8.857349482589337,
+    "project_type": 47.622056948116686
+  },
+  "Southwest": {
+    "formwork_rate": 1.5770854623740647,
+    "equip_cci": 1.836225025619163,
+    "cci_labor_premium": 2.4800905985744346,
+    "cci_deviation": 3.282754694193706,
+    "mat_cci": 3.4282905018377305,
+    "labor_cci": 5.183851880460499,
+    "log_area": 5.793791935635401,
+    "weighted_cci": 5.898961605057831,
+    "area_sqft": 7.060813045404234,
+    "project_type": 51.456924738455925
+  },
+  "West": {
+    "combined_material_rate": 2.1220167555605016,
+    "equip_cci": 2.361328919456084,
+    "mat_cci": 2.4668199804451376,
+    "cci_labor_premium": 2.616863204729961,
+    "weighted_cci": 3.4448736124147583,
+    "log_area": 5.303039681801285,
+    "cci_deviation": 5.4595468435857875,
+    "labor_cci": 6.222929374320386,
+    "area_sqft": 9.113238412987888,
+    "project_type": 46.610904434333136
+  }
+}

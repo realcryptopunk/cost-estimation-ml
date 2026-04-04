@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+models/*.cbm
+models/*.pkl
+.env
+*.egg-info/
+dist/
+build/

@@ -22,7 +22,12 @@ def load_raw():
     """Load all raw data files."""
     print("📂 Loading raw data...")
     
-    cci = pd.read_csv(RAW_DIR / "synthetic_cci_projects.csv")
+    # Use real CCI if available, otherwise fall back to synthetic
+    real_path = RAW_DIR / "real_cci_projects.csv"
+    synth_path = RAW_DIR / "synthetic_cci_projects.csv"
+    cci_path = real_path if real_path.exists() else synth_path
+    cci = pd.read_csv(cci_path)
+    print(f"  Source: {cci_path.name}")
     print(f"  CCI projects: {len(cci)} rows")
     
     fred = pd.read_csv(RAW_DIR / "fred_macro.csv", parse_dates=["date"])

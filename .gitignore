@@ -1,11 +1,54 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
 .ipynb_checkpoints/
-data/raw/
-data/processed/
-models/*.cbm
-models/*.pkl
-.env
 *.egg-info/
 dist/
 build/
+venv/
+.venv/
+
+# Data (large / generated)
+data/raw/
+data/processed/
+
+# Trained models
+models/*.cbm
+models/*.pkl
+
+# CatBoost training artifacts
+catboost_info/
+src/catboost_info/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / Next.js
+node_modules/
+.next/
+
+# Apple Pages documents
+*.pages
+
+# Large media
+*.mp4
+
+# Internal / Claude Code docs
+CLAUDE.md
+BUILDSCAN_APP_PLAN.md
+Design.md
+AGENTS.md
+
+# Presentation and paper (not part of ML codebase)
+presentation/
+paper/
+
+# IDE
+.vscode/
+.idea/
